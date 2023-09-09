@@ -1,0 +1,28 @@
+.h-wrapper {
+    background: var(--white);
+  }
+  
+  .logo {
+    /* Adjust the positioning and dimensions of your logo */
+    position: absolute;
+    width: 159px;
+    height: 37px;
+    left: 73px;
+    top: 22px;
+    /*background: url(/logo.png); /* Reference the image in the public folder */
+  }
+  
+  .h-container{
+      justify-content: space-between;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      color: var(--secondary);
+  }
+
+.h-menu{
+    gap: 2rem;
+}
+
+  .h-menu>*:hover{
+    cursor: pointer;
+  }
